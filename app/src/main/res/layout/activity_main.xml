@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCBCB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="208dp"
+        android:layout_height="114dp"
+        android:background="#BDBABA"
+        android:text="="
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/cuadrito2"
+        android:layout_width="246dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.381"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/cuadrito1"
+        android:layout_width="264dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="sumar"
+        android:text="Suma"
+        android:textColor="#FFFCFC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="multiplicacion"
+        android:text="Multiplicacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="resta"
+        android:text="Resta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="division"
+        android:text="Division"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="calcularFibonacci"
+        android:text="Fibonacci"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="134dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="calcularFactorial"
+        android:text="Factorial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
